@@ -652,3 +652,10 @@ padding: 26px;
 @media (max-width: 850px) {
   .hero-visual { min-height: 300px; padding: 18px; }
 }
+
+
+/* Mascote sem o quadrado branco: mistura o fundo branco com o fundo escuro do cabeçalho */
+.brand-mascot {
+  background: transparent !important;
+  mix-blend-mode: multiply;
+}
