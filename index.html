@@ -1,239 +1,494 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta
-name="description"
-content="Machado Manutenções: serviços de manutenção e reparos com atendimento em São José dos Pinhais e região."
+  <meta
+    name="description"
+    content="Machado Manutenções: instalações elétricas, manutenção e reparos residenciais e comerciais em São José dos Pinhais e região. Solicite seu orçamento."
+  >
 
->
+  <meta name="theme-color" content="#10221d">
 
-  <title>Machado Manutenções | Serviços e Reparos</title>
+  <title>Machado Manutenções | Instalações e Reparos</title>
 
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+  <!-- CABEÇALHO -->
   <header class="header">
     <div class="container nav">
-      <a class="logo" href="#inicio">
-        Machado <span>Manutenções</span>
+
+      <a class="logo" href="#inicio" aria-label="Machado Manutenções - Início">
+        <span class="logo-icon">ϟ</span>
+        <span>
+          Machado
+          <span class="logo-green">Manutenções</span>
+        </span>
       </a>
 
-```
-  <nav>
-    <a href="#servicos">Serviços</a>
-    <a href="#sobre">Sobre</a>
-    <a href="#contato">Contato</a>
-  </nav>
-</div>
-```
+      <nav aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
 
+    </div>
   </header>
 
   <main>
 
-```
-<section id="inicio" class="hero">
-  <div class="container hero-grid">
+    <!-- APRESENTAÇÃO PRINCIPAL -->
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
 
-    <div>
-      <p class="eyebrow">ATENDIMENTO RESIDENCIAL E COMERCIAL</p>
+        <div class="hero-content">
 
-      <h1>
-        Manutenção e reparos com atendimento rápido e profissional.
-      </h1>
+          <p class="eyebrow">
+            ATENDIMENTO RESIDENCIAL E COMERCIAL
+          </p>
 
-      <p class="hero-text">
-        Soluções para instalações, manutenções e reparos. Entre em contato
-        para explicar sua necessidade e solicitar um orçamento.
-      </p>
+          <h1>
+            Manutenção e reparos com atendimento
+            <span class="highlight">profissional.</span>
+          </h1>
 
-      <div class="buttons">
+          <p class="hero-text">
+            Soluções para instalações, manutenções e reparos.
+            Entre em contato para explicar sua necessidade
+            e solicitar um orçamento.
+          </p>
+
+          <div class="buttons">
+
+            <a
+              class="btn primary"
+              href="https://wa.me/554187959998?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Falar pelo WhatsApp
+            </a>
+
+            <a
+              class="btn secondary"
+              href="tel:+554187959998"
+            >
+              Ligar agora
+            </a>
+
+          </div>
+
+          <p class="small-note">
+            📍 Atendimento em São José dos Pinhais e região.
+          </p>
+
+        </div>
+
+        <div class="hero-visual">
+
+          <img
+            src="imagens/destaque-eletricista.jpg"
+            alt="Profissional realizando manutenção elétrica"
+            fetchpriority="high"
+          >
+
+          <div class="hero-card">
+
+            <span class="round-icon">🔧</span>
+
+            <h2>Solicite seu orçamento</h2>
+
+            <p>
+              Descreva o serviço que precisa e consulte
+              as opções de atendimento.
+            </p>
+
+            <a href="#contato" class="service-link">
+              Ver formas de contato →
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="section">
+
+      <div class="container">
+
+        <p class="eyebrow">O QUE FAZEMOS</p>
+
+        <h2 class="section-title">
+          Serviços de manutenção e reparos
+        </h2>
+
+        <p class="section-intro">
+          Conheça alguns dos serviços oferecidos. Entre em contato
+          para confirmar a disponibilidade e solicitar um orçamento.
+        </p>
+
+        <div class="cards">
+
+          <article class="service-card">
+
+            <img
+              src="imagens/instalacoes-eletricas.jpg"
+              alt="Instalação de tomada elétrica"
+              loading="lazy"
+            >
+
+            <div class="service-content">
+
+              <h3>Instalações elétricas</h3>
+
+              <p>
+                Instalação e substituição de tomadas,
+                interruptores e luminárias.
+              </p>
+
+              <a
+                class="service-link"
+                href="https://wa.me/554187959998?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20para%20instala%C3%A7%C3%A3o%20el%C3%A9trica."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Solicitar orçamento →
+              </a>
+
+            </div>
+          </article>
+
+          <article class="service-card">
+
+            <img
+              src="imagens/quadro-eletrico.jpg"
+              alt="Quadro de distribuição elétrica"
+              loading="lazy"
+            >
+
+            <div class="service-content">
+
+              <h3>Quadros elétricos</h3>
+
+              <p>
+                Avaliação, manutenção e reparos em quadros
+                de distribuição elétrica.
+              </p>
+
+              <a
+                class="service-link"
+                href="https://wa.me/554187959998?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20para%20manuten%C3%A7%C3%A3o%20de%20quadro%20el%C3%A9trico."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Solicitar orçamento →
+              </a>
+
+            </div>
+          </article>
+
+          <article class="service-card">
+
+            <img
+              src="imagens/portao-eletronico.jpg"
+              alt="Motor de portão eletrônico"
+              loading="lazy"
+            >
+
+            <div class="service-content">
+
+              <h3>Portões eletrônicos</h3>
+
+              <p>
+                Consulte a disponibilidade para instalação,
+                manutenção e conserto.
+              </p>
+
+              <a
+                class="service-link"
+                href="https://wa.me/554187959998?text=Ol%C3%A1%2C%20gostaria%20de%20consultar%20um%20servi%C3%A7o%20para%20port%C3%A3o%20eletr%C3%B4nico."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Solicitar orçamento →
+              </a>
+
+            </div>
+          </article>
+
+          <article class="service-card">
+
+            <img
+              src="imagens/cerca-eletrica.jpg"
+              alt="Sistema de cerca elétrica residencial"
+              loading="lazy"
+            >
+
+            <div class="service-content">
+
+              <h3>Cercas elétricas</h3>
+
+              <p>
+                Consulte a disponibilidade para avaliação,
+                manutenção e reparos.
+              </p>
+
+              <a
+                class="service-link"
+                href="https://wa.me/554187959998?text=Ol%C3%A1%2C%20gostaria%20de%20consultar%20um%20servi%C3%A7o%20para%20cerca%20el%C3%A9trica."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Solicitar orçamento →
+              </a>
+
+            </div>
+          </article>
+
+          <article class="service-card">
+
+            <img
+              src="imagens/manutencao-preventiva.jpg"
+              alt="Profissional verificando uma instalação"
+              loading="lazy"
+            >
+
+            <div class="service-content">
+
+              <h3>Manutenção preventiva</h3>
+
+              <p>
+                Verificação de instalações e identificação
+                de possíveis necessidades de manutenção.
+              </p>
+
+              <a
+                class="service-link"
+                href="https://wa.me/554187959998?text=Ol%C3%A1%2C%20gostaria%20de%20consultar%20uma%20manuten%C3%A7%C3%A3o%20preventiva."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Solicitar orçamento →
+              </a>
+
+            </div>
+          </article>
+
+          <article class="service-card">
+
+            <img
+              src="imagens/reparos.jpg"
+              alt="Ferramentas utilizadas em serviços de reparo"
+              loading="lazy"
+            >
+
+            <div class="service-content">
+
+              <h3>Reparos em geral</h3>
+
+              <p>
+                Avaliação de problemas e consulta sobre
+                soluções para instalações e equipamentos.
+              </p>
+
+              <a
+                class="service-link"
+                href="https://wa.me/554187959998?text=Ol%C3%A1%2C%20gostaria%20de%20consultar%20um%20servi%C3%A7o%20de%20reparo."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Solicitar orçamento →
+              </a>
+
+            </div>
+          </article>
+
+        </div>
+
+        <p class="disclaimer">
+          A disponibilidade de cada serviço deve ser confirmada
+          diretamente com a empresa.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- SOBRE A EMPRESA -->
+    <section id="sobre" class="section light">
+
+      <div class="container about-grid">
+
+        <div class="about-image">
+
+          <img
+            src="imagens/atendimento.jpg"
+            alt="Atendimento e comunicação com o cliente"
+            loading="lazy"
+          >
+
+        </div>
+
+        <div class="about-content">
+
+          <p class="eyebrow">SOBRE O ATENDIMENTO</p>
+
+          <h2>Atendimento claro e direto</h2>
+
+          <p>
+            Cada serviço começa com a compreensão da sua necessidade.
+            Entre em contato, explique o problema e informe sua localização.
+          </p>
+
+          <p>
+            Se possível, envie fotos ou vídeos pelo WhatsApp para
+            facilitar a avaliação inicial.
+          </p>
+
+          <p>
+            Os serviços, valores, prazos e condições são confirmados
+            antes da execução.
+          </p>
+
+          <a
+            class="btn primary"
+            href="https://wa.me/554187959998?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Entre em contato
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ÁREA DE ATENDIMENTO -->
+    <section class="location">
+
+      <div class="container location-box">
+
+        <div>
+
+          <p class="eyebrow">ÁREA DE ATENDIMENTO</p>
+
+          <h2>São José dos Pinhais e região</h2>
+
+          <p>
+            Consulte a disponibilidade para o seu endereço.
+          </p>
+
+        </div>
+
         <a
           class="btn primary"
-          href="https://wa.me/554187959998?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+          href="https://wa.me/554187959998?text=Ol%C3%A1%2C%20gostaria%20de%20consultar%20a%20disponibilidade%20para%20meu%20endere%C3%A7o."
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
-          Falar pelo WhatsApp
+          Consultar disponibilidade
         </a>
 
-        <a
-          class="btn secondary"
-          href="tel:+554187959998"
-        >
-          Ligar agora
-        </a>
       </div>
+    </section>
 
-      <p class="small-note">
-        Atendimento em São José dos Pinhais e região.
-      </p>
-    </div>
+    <!-- CONTATO -->
+    <section id="contato" class="section contact">
 
-    <div class="hero-card">
-      <div class="icon">🔧</div>
+      <div class="container contact-grid">
 
-      <h2>Solicite seu orçamento</h2>
+        <div>
 
-      <p>
-        Descreva o serviço que precisa e receba orientações sobre o
-        atendimento.
-      </p>
+          <p class="eyebrow">FALE CONOSCO</p>
 
-      <a href="#contato" class="card-link">
-        Ver formas de contato →
-      </a>
-    </div>
+          <h2>Vamos conversar sobre o seu serviço?</h2>
 
-  </div>
-</section>
+          <p>
+            Escolha um dos canais abaixo para solicitar
+            informações ou um orçamento.
+          </p>
 
-<section id="servicos" class="section">
-  <div class="container">
+        </div>
 
-    <p class="eyebrow">O QUE FAZEMOS</p>
-    <h2>Serviços</h2>
+        <div class="contact-card">
 
-    <div class="cards">
+          <a
+            href="https://wa.me/554187959998?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
 
-      <article class="service-card">
-        <div class="service-icon">⚡</div>
+            <span class="contact-icon">◉</span>
 
-        <h3>Instalações</h3>
+            <strong>WhatsApp</strong>
 
-        <p>
-          Instalações e adequações conforme a necessidade do imóvel.
-        </p>
-      </article>
+            <span>(41) 8795-9998</span>
 
-      <article class="service-card">
-        <div class="service-icon">🛠️</div>
+          </a>
 
-        <h3>Manutenções</h3>
+          <a href="tel:+554187959998">
 
-        <p>
-          Manutenção preventiva e corretiva para equipamentos e instalações.
-        </p>
-      </article>
+            <span class="contact-icon">☎</span>
 
-      <article class="service-card">
-        <div class="service-icon">🏠</div>
+            <strong>Telefone</strong>
 
-        <h3>Reparos</h3>
+            <span>(41) 8795-9998</span>
 
-        <p>
-          Avaliação e reparos em problemas identificados no local.
-        </p>
-      </article>
+          </a>
 
-    </div>
-  </div>
-</section>
+          <div class="contact-item">
 
-<section id="sobre" class="section light">
-  <div class="container two-columns">
+            <span class="contact-icon">◷</span>
 
-    <div>
-      <p class="eyebrow">SOBRE O ATENDIMENTO</p>
-      <h2>Atendimento claro e direto</h2>
-    </div>
+            <strong>Horário</strong>
 
-    <div>
-      <p>
-        Conte o que precisa, informe sua localização e, se possível, envie
-        fotos ou vídeos do problema pelo WhatsApp. Assim, o atendimento
-        pode ser avaliado com mais precisão.
-      </p>
+            <span>Consulte a disponibilidade</span>
 
-      <p>
-        Os serviços, valores, prazos e condições devem ser confirmados
-        antes da execução.
-      </p>
-    </div>
+          </div>
 
-  </div>
-</section>
+        </div>
 
-<section class="section location">
-  <div class="container location-box">
-
-    <div>
-      <p class="eyebrow">ÁREA DE ATENDIMENTO</p>
-
-      <h2>São José dos Pinhais e região</h2>
-
-      <p>
-        Consulte a disponibilidade para o seu endereço.
-      </p>
-    </div>
-
-    <a
-      class="btn primary"
-      href="https://wa.me/554187959998?text=Ol%C3%A1%2C%20gostaria%20de%20consultar%20a%20disponibilidade%20para%20meu%20endere%C3%A7o."
-      target="_blank"
-      rel="noopener"
-    >
-      Consultar disponibilidade
-    </a>
-
-  </div>
-</section>
-
-<section id="contato" class="section contact">
-  <div class="container contact-grid">
-
-    <div>
-      <p class="eyebrow">FALE CONOSCO</p>
-
-      <h2>
-        Vamos conversar sobre o seu serviço?
-      </h2>
-
-      <p>
-        Use um dos canais abaixo para solicitar informações ou orçamento.
-      </p>
-    </div>
-
-    <div class="contact-card">
-
-      <a
-        href="https://wa.me/554187959998?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
-        target="_blank"
-        rel="noopener"
-      >
-        <strong>WhatsApp</strong>
-        <span>(41) 8795-9998</span>
-      </a>
-
-      <a href="tel:+554187959998">
-        <strong>Telefone</strong>
-        <span>(41) 8795-9998</span>
-      </a>
-
-      <div>
-        <strong>Horário</strong>
-        <span>Consulte a disponibilidade</span>
       </div>
-
-    </div>
-  </div>
-</section>
-```
+    </section>
 
   </main>
 
+  <!-- RODAPÉ -->
   <footer class="footer">
-    <div class="container">
+
+    <div class="container footer-content">
+
+      <a class="logo footer-logo" href="#inicio">
+        Machado <span class="logo-green">Manutenções</span>
+      </a>
+
       <p>
         © 2026 Machado Manutenções. Todos os direitos reservados.
       </p>
+
     </div>
+
   </footer>
+
+  <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
+  <a
+    class="floating-whatsapp"
+    href="https://wa.me/554187959998?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Entrar em contato pelo WhatsApp"
+  >
+    WhatsApp
+  </a>
 
 </body>
 </html>
