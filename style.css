@@ -654,8 +654,9 @@ padding: 26px;
 }
 
 
-/* Mascote sem o quadrado branco: mistura o fundo branco com o fundo escuro do cabeçalho */
+/* Mantém as cores originais do mascote */
 .brand-mascot {
   background: transparent !important;
-  mix-blend-mode: multiply;
+  mix-blend-mode: normal;
+  filter: none;
 }
